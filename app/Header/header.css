@@ -1,0 +1,82 @@
+.slider-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 60px; /* فضای کافی برای فلش‌ها از دو طرف */
+  position: relative;
+}
+
+.my-swiper {
+  width: 100%;
+  padding: 20px 50px 20px 50px;
+  overflow: visible; /* مهم: اجازه می‌ده فلش‌ها بیرون بیان */
+}
+
+/* ===== استایل اسلایدها ===== */
+.swiper-slide {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 16px;
+  overflow: hidden; /* محتوای داخل کارت از گوشه‌ها بیرون نزنه */
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* اگر داخل اسلاید عکس داری */
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ===== افکت اسلاید فعال و کناری ===== */
+.swiper-slide-active .slide {
+  transform: scale(1.04);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.swiper-slide:not(.swiper-slide-active) .slide {
+  opacity: 0.75;
+  transform: scale(0.94);
+}
+
+/* ===== فلش‌ها (بیرون از کارت‌ها) ===== */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 44px;
+  height: 44px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  color: #3b82f6; /* رنگ آبی فلش */
+}
+
+.swiper-button-prev {
+  left: 8px; /* فاصله از لبه چپ */
+}
+
+.swiper-button-next {
+  right: 8px; /* فاصله از لبه راست */
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* وقتی موس روش میره */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #3b82f6;
+  color: white;
+}

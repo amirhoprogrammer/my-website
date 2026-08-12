@@ -5,8 +5,7 @@
   --foreground: #171717;
 }
 header {
-  background: url("../public/Screenshot\ 2026-01-08\ 161334.png") center center /
-    cover no-repeat;
+  background: url("../public/podexapp.png") center center / cover no-repeat;
 }
 
 @theme inline {
