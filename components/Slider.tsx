@@ -34,14 +34,11 @@ export default function Slider() {
       <div
         className="absolute inset-0 -z-10 transition-all duration-500"
         style={{
-          backgroundImage: `url(${activeItem.image})`,
+          backgroundImage: `url(${activeItem.imageUrl})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-      >
-        {/* یک لایه تیره روی عکس برای خوانایی متن */}
-        <div className="absolute inset-0 bg-black/50" />
-      </div>
+      ></div>
 
       <div className="relative z-10 w-full max-w-5xl mx-auto pt-10">
         {/* عنوان و توضیحات */}
@@ -90,7 +87,7 @@ export default function Slider() {
                 >
                   <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 w-56 border border-white/20 shadow-xl">
                     <Image
-                      src={item.image}
+                      src={item.imageUrl}
                       alt={item.title}
                       width={320}
                       height={180}

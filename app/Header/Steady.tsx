@@ -15,22 +15,25 @@ export default function Steady() {
       </div>
       <div className="flex items-center justify-between gap-3">
         <Link href={""}>
-          <p className="text-sm">About me</p>
+          <p className="text-md">About me</p>
         </Link>
         <Link href={""}>
-          <p className="text-sm">Contact me</p>
+          <p className="text-md">Contact me</p>
         </Link>
         <Link href={""}>
-          <p className="text-sm">Projects & Portfolio</p>
+          <p className="text-md">Projects & Portfolio</p>
         </Link>
         <Link href={""}>
-          <p className="text-sm">services</p>
+          <p className="text-md">services</p>
         </Link>
         <Link href={""}>
-          <p className="text-sm">Resume</p>
+          <p className="text-md">Resume</p>
         </Link>
       </div>
-      <div className="rounded-sm moon">moon</div>
+      <div className="rounded-sm moon">
+        {/*<Image src="./icon8-moon-30.png" alt="moon" height={30} width={30} />*/}
+        <Image src="/icons8-moon-30.png" alt="moon" height={30} width={30} />
+      </div>
     </div>
   );
 }
