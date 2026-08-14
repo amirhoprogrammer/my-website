@@ -10,12 +10,15 @@ import "swiper/css/pagination";
 import { sliderData } from "@/data/sliderData";
 import HeaderSlider from "@/components/HeaderSlider";
 import { useState } from "react";
-export default function MySlider() {
-  const [activeIndex, setActiveIndex] = useState(0);
+import { MySliderProps } from "@/utils/types";
+export default function MySlider({
+  activeIndex,
+  setActiveIndex,
+}: MySliderProps) {
   const activeSlider = sliderData[activeIndex];
-  console.log(activeSlider.id);
+
   return (
-    <div>
+    <div className="slider-wrapper">
       <HeaderSlider items={activeSlider} />
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}

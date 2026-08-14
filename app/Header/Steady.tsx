@@ -30,7 +30,7 @@ export default function Steady() {
           <p className="text-md">Resume</p>
         </Link>
       </div>
-      <div className="rounded-sm moon">
+      <div className="rounded-full bg-lights p-2">
         {/*<Image src="./icon8-moon-30.png" alt="moon" height={30} width={30} />*/}
         <Image src="/icons8-moon-30.png" alt="moon" height={30} width={30} />
       </div>

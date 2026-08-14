@@ -4,8 +4,14 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-header {
-  background: url("../public/podexapp.png") center center / cover no-repeat;
+
+@theme {
+  --color-moon: #3d4756;
+  --color-lights: #f3faff;
+  --color-header-button: #b98931;
+  --color-submit-form: #35c191;
+  --color-aboutme: #d9d9d9;
+  --color-projectcard: #e6fdff;
 }
 
 @theme inline {
@@ -19,11 +25,6 @@ header {
   :root {
     --background: #f2faff;
     --foreground: #030000;
-    --color--moon: #3d4756;
-    --color--header--button: #b98931;
-    --color--submit--form: #35c191;
-    --color--aboutme: #d9d9d9;
-    --color--projectcard: #e6fdff;
   }
 }
 

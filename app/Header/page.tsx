@@ -1,16 +1,22 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Steady from "./Steady";
 import MySlider from "./MySlider";
-import Slider from "@/components/Slider";
 import { sliderData } from "@/data/sliderData";
 export default function Header() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const activeSlider = sliderData[activeIndex];
   return (
-    <header className="relative h-screen overflow-hidden">
+    <header
+      className="relative h-screen overflow-hidden"
+      style={{
+        backgroundImage: `url(${activeSlider.imageUrl})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <Steady />
-      <div className="slider-wrapper">
-        <MySlider />
-      </div>
-      {/*<Slider />*/}
+      <MySlider activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
     </header>
   );
 }
