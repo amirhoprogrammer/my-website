@@ -35,3 +35,37 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@media (max-width: 850) {
+  .card h2 {
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .card h5 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 750) {
+  .aboutMeRight {
+    width: 80%;
+    padding-left: 15px;
+  }
+  .aboutMeLeft h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600) {
+  .cardlist {
+    flex-wrap: wrap;
+  }
+  .aboutMe {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutMeLeft {
+    width: 50%;
+    display: flex;
+  }
+}

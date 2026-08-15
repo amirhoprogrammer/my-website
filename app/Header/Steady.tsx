@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 export default function Steady() {
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
-    const onScroll = () => setIsScrolled(window.scrollY > 660);
+    const onScroll = () => setIsScrolled(window.scrollY > 580);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -15,7 +15,7 @@ export default function Steady() {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 flex items-center justify-between px-3 pt-2 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 flex items-center justify-between px-3 py-2 ${
         isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
@@ -30,19 +30,19 @@ export default function Steady() {
       </div>
       <div className="flex items-center justify-between gap-3 headerlist">
         <Link href={""}>
-          <p className="text-md">About me</p>
+          <p className="text-base">About me</p>
         </Link>
         <Link href={""}>
-          <p className="text-md">Contact me</p>
+          <p className="text-base">Contact me</p>
         </Link>
         <Link href={""}>
-          <p className="text-md">Projects & Portfolio</p>
+          <p className="text-base">Projects & Portfolio</p>
         </Link>
         <Link href={""}>
-          <p className="text-md">services</p>
+          <p className="text-base">services</p>
         </Link>
         <Link href={""}>
-          <p className="text-md">Resume</p>
+          <p className="text-base">Resume</p>
         </Link>
       </div>
       <div className="rounded-full bg-lights p-2">
