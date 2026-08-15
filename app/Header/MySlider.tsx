@@ -1,5 +1,3 @@
-"use client";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Image from "next/image";
@@ -9,7 +7,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { sliderData } from "@/data/sliderData";
 import HeaderSlider from "@/components/HeaderSlider";
-import { useState } from "react";
 import { MySliderProps } from "@/utils/types";
 export default function MySlider({
   activeIndex,

@@ -1,9 +1,24 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import "./header.css";
+import { useEffect, useState } from "react";
 
 export default function Steady() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setIsScrolled(window.scrollY > 660);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <div className="flex items-center justify-between px-3 pt-2">
+    <div
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 flex items-center justify-between px-3 pt-2 ${
+        isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
+      }`}
+    >
       <div className="logo rounded-full">
         <Image
           src="/AmirLogo.png"
@@ -13,7 +28,7 @@ export default function Steady() {
           className="rounded-sm"
         />
       </div>
-      <div className="flex items-center justify-between gap-3">
+      <div className="flex items-center justify-between gap-3 headerlist">
         <Link href={""}>
           <p className="text-md">About me</p>
         </Link>
