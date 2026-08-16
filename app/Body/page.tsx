@@ -5,6 +5,7 @@ import Image from "next/image";
 import Card from "@/components/Card";
 import { cardData } from "@/data/cardData";
 import FrontEndMindMap from "@/components/Frontendmindmap";
+import Projects from "./Projects";
 
 export default function Body() {
   return (
@@ -59,6 +60,7 @@ export default function Body() {
       </div>
       <div className="my-10">
         <h2 className="text-3xl font-bold mb-2 text-center">Projects</h2>
+        <Projects />
       </div>
       <div className="my-10">
         <h2 className="text-3xl font-bold mb-2 text-center">

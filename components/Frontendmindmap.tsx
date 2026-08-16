@@ -94,7 +94,9 @@ export default function FrontEndMindMap() {
 
         <div
           className={
-            visible ? "mm-node mm-center mm-node-in" : "mm-node mm-center"
+            visible
+              ? "mm-node mm-center mm-node-in bg-skills"
+              : "mm-node mm-center bg-skills"
           }
           style={{ left: `${CENTER.x}%`, top: `${CENTER.y}%` }}
         >
@@ -104,7 +106,9 @@ export default function FrontEndMindMap() {
         {BRANCHES.map((node, i) => (
           <div
             key={node.id}
-            className={visible ? "mm-node mm-node-in" : "mm-node"}
+            className={
+              visible ? "mm-node mm-node-in bg-skills" : "mm-node bg-skills"
+            }
             style={{
               left: `${node.x}%`,
               top: `${node.y}%`,
@@ -119,7 +123,7 @@ export default function FrontEndMindMap() {
           .mm-node {
             position: absolute;
             transform: translate(-50%, -50%) scale(0.85);
-            background: #e5e5e5;
+            /*background: #e5e5e5;*/
             padding: 6px 14px;
             border-radius: 6px;
             font-family: system-ui, -apple-system, sans-serif;
@@ -135,7 +139,7 @@ export default function FrontEndMindMap() {
           }
           .mm-center {
             font-weight: 600;
-            background: #d9d9d9;
+            /*background: #d9d9d9;*/
           }
           .mm-line {
             stroke-dasharray: 60;
@@ -190,7 +194,9 @@ export default function FrontEndMindMap() {
 
         <div
           className={
-            visible ? "mm-node1 mm-center mm-node-in" : "mm-node1 mm-center"
+            visible
+              ? "mm-node1 mm-center mm-node-in bg-skills"
+              : "mm-node1 mm-center bg-skills"
           }
           style={{ left: `${Center.x}%`, top: `${Center.y}%` }}
         >
@@ -200,7 +206,9 @@ export default function FrontEndMindMap() {
         {Branch.map((node, i) => (
           <div
             key={node.id}
-            className={visible ? "mm-node1 mm-node-in" : "mm-node1"}
+            className={
+              visible ? "mm-node1 mm-node-in bg-skills" : "mm-node1 bg-skills"
+            }
             style={{
               left: `${node.x}%`,
               top: `${node.y}%`,
@@ -215,7 +223,7 @@ export default function FrontEndMindMap() {
           .mm-node1 {
             position: absolute;
             transform: translate(-50%, -50%) scale(0.85);
-            background: #e5e5e5;
+            /*background: #e5e5e5;*/
             padding: 6px 14px;
             border-radius: 6px;
             font-family: system-ui, -apple-system, sans-serif;
@@ -231,7 +239,7 @@ export default function FrontEndMindMap() {
           }
           .mm-center {
             font-weight: 600;
-            background: #d9d9d9;
+            /*background: #d9d9d9;*/
           }
           .mm-line1 {
             stroke-dasharray: 60;
@@ -286,7 +294,9 @@ export default function FrontEndMindMap() {
 
         <div
           className={
-            visible ? "mm-node2 mm-center mm-node-in" : "mm-node2 mm-center"
+            visible
+              ? "mm-node2 mm-center mm-node-in bg-skills"
+              : "mm-node2 mm-center bg-skills"
           }
           style={{ left: `${Centers.x}%`, top: `${Centers.y}%` }}
         >
@@ -297,7 +307,9 @@ export default function FrontEndMindMap() {
         {Branches.map((node, i) => (
           <div
             key={node.id}
-            className={visible ? "mm-node2 mm-node-in" : "mm-node2"}
+            className={
+              visible ? "mm-node2 mm-node-in bg-skills" : "mm-node2 bg-skills"
+            }
             style={{
               left: `${node.x}%`,
               top: `${node.y}%`,
@@ -312,7 +324,7 @@ export default function FrontEndMindMap() {
           .mm-node2 {
             position: absolute;
             transform: translate(-50%, -50%) scale(0.85);
-            background: #e5e5e5;
+            /*background: #e5e5e5;*/
             padding: 6px 14px;
             border-radius: 6px;
             font-family: system-ui, -apple-system, sans-serif;
@@ -328,7 +340,7 @@ export default function FrontEndMindMap() {
           }
           .mm-center {
             font-weight: 600;
-            background: #d9d9d9;
+            /*background: #d9d9d9;*/
           }
           .mm-line2 {
             stroke-dasharray: 60;

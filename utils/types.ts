@@ -10,6 +10,15 @@ export interface MySliderProps {
   activeIndex: number;
   setActiveIndex: React.Dispatch<React.SetStateAction<number>>;
 }
+
+export interface ProjectCardDetils {
+  id: number;
+  imageUrl: string;
+  title: string;
+  description: string;
+  label: string[];
+  gitUrl: string;
+}
 export interface CardDetails {
   title: string;
   imageUrl: string;

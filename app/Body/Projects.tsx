@@ -1,0 +1,63 @@
+"use client";
+import { useState } from "react";
+import "./projects.css";
+import { projectCardData } from "@/data/projectCardData";
+import ProjectCard from "@/components/ProjectCard";
+
+export default function Projects() {
+  const [activeButton, setActiveButton] = useState(1);
+  return (
+    <div>
+      <div className="flex items-center justify-center gap-3">
+        <button
+          className="flex text-center rounded-2xl border-Main bg-card px-4 py-1"
+          onClick={() => setActiveButton(1)}
+        >
+          all
+        </button>
+        <button
+          className="flex text-center rounded-2xl border-Main bg-card px-2 py-1"
+          onClick={() => setActiveButton(2)}
+        >
+          React
+        </button>
+        <button
+          className="flex text-center rounded-2xl border-Main bg-card px-2 py-1"
+          onClick={() => setActiveButton(3)}
+        >
+          Nextjs
+        </button>
+        <button
+          className="flex text-center rounded-2xl border-Main bg-card px-2 py-1"
+          onClick={() => setActiveButton(4)}
+        >
+          other
+        </button>
+      </div>
+      {activeButton == 1 && (
+        <div className="flex px-2 items-center justify-around">
+          <ProjectCard items={projectCardData[3]} />
+          <ProjectCard items={projectCardData[6]} />
+        </div>
+      )}
+      {activeButton == 2 && (
+        <div className="flex px-2 items-center justify-around">
+          <ProjectCard items={projectCardData[4]} />
+          <ProjectCard items={projectCardData[5]} />
+        </div>
+      )}
+      {activeButton == 3 && (
+        <div className="flex px-2 items-center justify-around">
+          <ProjectCard items={projectCardData[1]} />
+          <ProjectCard items={projectCardData[2]} />
+        </div>
+      )}
+      {activeButton == 4 && (
+        <div className="flex px-2 items-center justify-around">
+          <ProjectCard items={projectCardData[7]} />
+          <ProjectCard items={projectCardData[8]} />
+        </div>
+      )}
+    </div>
+  );
+}
