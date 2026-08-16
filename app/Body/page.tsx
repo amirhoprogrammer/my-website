@@ -69,6 +69,9 @@ export default function Body() {
           you see my skills
         </p>
         <FrontEndMindMap />
+        <h2 className="text-2xl font-bold mb-2 text-center">
+          Technology Stack
+        </h2>
       </div>
     </div>
   );
