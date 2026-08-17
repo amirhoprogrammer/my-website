@@ -1,3 +1,7 @@
+export interface HeaderList {
+  headerItem: string;
+  headerLink: string;
+}
 export interface Slider {
   id: number;
   title: string;
@@ -19,6 +23,7 @@ export interface ProjectCardDetils {
   label: string[];
   gitUrl: string;
 }
+
 export interface CardDetails {
   title: string;
   imageUrl: string;
@@ -34,4 +39,9 @@ export interface ResumeDetails {
   description: string;
   start: number;
   end: number;
+}
+
+export interface FooterList {
+  title: string;
+  listItems: string[];
 }

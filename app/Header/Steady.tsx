@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import "./header.css";
 import { useEffect, useState } from "react";
+import SteadyHeader from "@/components/SteadyHeader";
+import { HeaderData } from "@/data/HeaderData";
 
 export default function Steady() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,24 +31,28 @@ export default function Steady() {
         />
       </div>
       <div className="flex items-center justify-between gap-3 headerlist">
-        <Link href={""}>
+        {/*<Link href={"#"}>
           <p className="text-base">About me</p>
         </Link>
-        <Link href={""}>
+        <Link href={"#"}>
           <p className="text-base">Contact me</p>
         </Link>
-        <Link href={""}>
+        <Link href={"#"}>
           <p className="text-base">Projects & Portfolio</p>
         </Link>
-        <Link href={""}>
+        <Link href={"#"}>
           <p className="text-base">services</p>
         </Link>
-        <Link href={""}>
+        <Link href={"#"}>
           <p className="text-base">Resume</p>
-        </Link>
+        </Link>*/}
+        <SteadyHeader item={HeaderData[0]} />
+        <SteadyHeader item={HeaderData[1]} />
+        <SteadyHeader item={HeaderData[2]} />
+        <SteadyHeader item={HeaderData[3]} />
+        <SteadyHeader item={HeaderData[4]} />
       </div>
       <div className="rounded-full bg-lights p-2">
-        {/*<Image src="./icon8-moon-30.png" alt="moon" height={30} width={30} />*/}
         <Image src="/icons8-moon-30.png" alt="moon" height={30} width={30} />
       </div>
     </div>

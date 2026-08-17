@@ -7,14 +7,15 @@ import ResumeCard from "@/components/ResumeCard";
 const Labels = ["education", "WorkHistory", "skills", "Language"];
 export default function Resume() {
   const [isClicked, setisClicked] = useState(0);
-  //const items : ResumeDetails
   return (
     <div className="flex  mx-0 px-0 items-center justify-center h-140">
       <div className="leftside flex flex-col items-center justify-center bg-Main shadow-lg h-140 rounded-l-md border-card">
         {Labels.map((Label, id) => (
-          <div className="flex items-center justify-center py-1 px-2">
+          <div className="flex items-center justify-center py-1 px-2" key={id}>
             <button
-              className="px-2 rounded-lg bg-button-resume flex items-center justify-center w-28"
+              className={`px-2 rounded-lg  flex items-center justify-center w-28 ${
+                isClicked == id ? "bg-card" : "bg-button-resume"
+              }`}
               onClick={() => setisClicked(id)}
             >
               {Label}
