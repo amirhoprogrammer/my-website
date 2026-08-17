@@ -6,6 +6,7 @@ import Card from "@/components/Card";
 import { cardData } from "@/data/cardData";
 import FrontEndMindMap from "@/components/Frontendmindmap";
 import Projects from "./Projects";
+import Resume from "./Resume";
 
 export default function Body() {
   return (
@@ -57,6 +58,9 @@ export default function Body() {
       </div>
       <div className="my-10">
         <h2 className="text-3xl font-bold mb-2 text-center">Resume</h2>
+        <div className="h-140">
+          <Resume />
+        </div>
       </div>
       <div className="my-10">
         <h2 className="text-3xl font-bold mb-2 text-center">Projects</h2>

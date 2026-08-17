@@ -37,7 +37,7 @@ export const projectCardData = [
   },
   {
     id: 5,
-    imageUrl: "./image1.png",
+    imageUrl: "/image1.png",
     title: "Front Project Roshan",
     description:
       "Project Ava is a hypothetical project aimed at implementing the user interface for a speech-to-text AI model. All necessary resources are located in the resources channel (frontend section).",
@@ -55,7 +55,7 @@ export const projectCardData = [
   },
   {
     id: 7,
-    imageUrl: "/kandatask3.png",
+    imageUrl: "/kandaTask3.png",
     title: "kandatask3",
     description:
       "this project is page of website that I make with html,jquery,css. this page have Property the first is in header you see the steady header and slider in banner hero, second is the popup that you see in right bottom corner and ... ",
@@ -64,7 +64,7 @@ export const projectCardData = [
   },
   {
     id: 8,
-    imageUrl: "/kandatask2.png",
+    imageUrl: "/kandaTask2.png",
     title: "kandatask2",
     description:
       "this login and register page that kandea idea request to me for make it,I make with asp.net and MVC, you enter the information and you see the information after registering and save information in session storage and ...",

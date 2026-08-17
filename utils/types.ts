@@ -28,3 +28,10 @@ export interface CardDetails {
   year: number;
   issued: string;
 }
+export interface ResumeDetails {
+  title: string;
+  title2: string;
+  description: string;
+  start: number;
+  end: number;
+}

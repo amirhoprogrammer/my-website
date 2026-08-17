@@ -17,6 +17,8 @@
   --color-card: #e6f4f1;
   --color-skills: #a1acbd;
   --color-label: #00bef7;
+  --color-button-resume: #00ad98;
+  --color-computer: #35c191;
 }
 
 @theme inline {
