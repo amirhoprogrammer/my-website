@@ -45,3 +45,9 @@ export interface FooterList {
   title: string;
   listItems: string[];
 }
+
+export interface Footericon {
+  imageTitle: string;
+  imageUrl: string;
+  linkUrl: string;
+}

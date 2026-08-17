@@ -31,21 +31,6 @@ export default function Steady() {
         />
       </div>
       <div className="flex items-center justify-between gap-3 headerlist">
-        {/*<Link href={"#"}>
-          <p className="text-base">About me</p>
-        </Link>
-        <Link href={"#"}>
-          <p className="text-base">Contact me</p>
-        </Link>
-        <Link href={"#"}>
-          <p className="text-base">Projects & Portfolio</p>
-        </Link>
-        <Link href={"#"}>
-          <p className="text-base">services</p>
-        </Link>
-        <Link href={"#"}>
-          <p className="text-base">Resume</p>
-        </Link>*/}
         <SteadyHeader item={HeaderData[0]} />
         <SteadyHeader item={HeaderData[1]} />
         <SteadyHeader item={HeaderData[2]} />

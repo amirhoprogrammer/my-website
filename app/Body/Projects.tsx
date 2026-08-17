@@ -10,14 +10,16 @@ export default function Projects() {
     <div>
       <div className="flex items-center justify-center gap-3">
         {Types.map((type, id) => (
-          <button
-            className={`flex text-center rounded-2xl border-Main  px-4 py-1 ${
-              activeButton == id ? "bg-Main" : "bg-card"
-            }`}
-            onClick={() => setActiveButton(id)}
-          >
-            {type}
-          </button>
+          <div key={id}>
+            <button
+              className={`flex text-center rounded-2xl border-Main  px-4 py-1 ${
+                activeButton == id ? "bg-Main" : "bg-card"
+              }`}
+              onClick={() => setActiveButton(id)}
+            >
+              {type}
+            </button>
+          </div>
         ))}
         {/*<button
           className="flex text-center rounded-2xl border-Main bg-card px-4 py-1"
