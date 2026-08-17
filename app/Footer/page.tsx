@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Icon from "@/components/Icon";
 import { iconData } from "@/data/iconData";
-import FooterList from "@/components/FooterList";
+import FooterLists from "@/components/FooterLists";
 import { footerData } from "@/data/footerData";
 export default function Footer() {
   return (
@@ -21,9 +21,9 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex items-center justify-between mx-2 my-1 gap-45">
-          <FooterList items={footerData[0]} />
-          <FooterList items={footerData[1]} />
-          <FooterList items={footerData[2]} />
+          <FooterLists items={footerData[0]} />
+          <FooterLists items={footerData[1]} />
+          <FooterLists items={footerData[2]} />
         </div>
       </div>
       <div className="border-t-2 border-black"></div>

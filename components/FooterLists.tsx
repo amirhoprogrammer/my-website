@@ -1,6 +1,6 @@
 import { FooterList } from "@/utils/types";
 
-export default function FooterList({ items }: { items: FooterList }) {
+export default function FooterLists({ items }: { items: FooterList }) {
   return (
     <div className="py-2 mx-2">
       <h3 className="text-lg font-bold">{items.title}</h3>
