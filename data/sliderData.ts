@@ -29,11 +29,11 @@ export const sliderData = [
   },
   {
     id: 4,
-    title: "Venusaur",
+    title: "React Bro",
     description:
-      "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
-    imageUrl: "/sprit-shop.png",
-    buttonName: "sprit-shop project",
+      "This project is document of react lessons,it have 17 lessons.First lesson is basic List.Second lesson is Card Component.Third lesson is props.Fourth lesson is conditional rendering.Fifth lesson is renedering list.Sixth lesson is click event.Lesson Seven & Eight is Use State Hook.Lesson 9 is color picker.Lesson 10 is updater function.Lesson 12 is update array in state.Lesson 12 is update array in state.Lesson 12 is update array of object in state.Lesson 14 is To-Do-listapp().Lesson 15 is Use Effect().Lesson 16 is Use Context().Lesson 17 is Use Ref().and in addition to have 2 miniproject: clock and stopwatch",
+    imageUrl: "/reactBro.png",
+    buttonName: "React Bro project",
     link: "#",
   },
 ];
