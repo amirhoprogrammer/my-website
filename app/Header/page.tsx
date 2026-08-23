@@ -15,7 +15,6 @@ export default function Header() {
         backgroundPosition: "center",
       }}
     >
-      <Steady />
       <MySlider activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
     </header>
   );
