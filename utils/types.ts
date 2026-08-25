@@ -51,3 +51,9 @@ export interface Footericon {
   imageUrl: string;
   linkUrl: string;
 }
+
+export interface ContactsMe {
+  imageUrl: string;
+  imageAlt: string;
+  text: string;
+}
