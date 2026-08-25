@@ -3,9 +3,10 @@ import Icon from "@/components/Icon";
 import { iconData } from "@/data/iconData";
 import FooterLists from "@/components/FooterLists";
 import { footerData } from "@/data/footerData";
+import "../globals.css";
 export default function Footer() {
   return (
-    <footer className="bg-footer">
+    <footer className="bg-footer footer">
       <div className="flex items-center justify-between">
         <div className="left px-2 py-1">
           <Image
@@ -20,7 +21,7 @@ export default function Footer() {
             amirhanegareshi@gmail.com.
           </p>
         </div>
-        <div className="flex items-center justify-between mx-2 my-1 gap-45">
+        <div className="flex items-center justify-between mx-2 my-1 w-[70%]">
           <FooterLists items={footerData[0]} />
           <FooterLists items={footerData[1]} />
           <FooterLists items={footerData[2]} />

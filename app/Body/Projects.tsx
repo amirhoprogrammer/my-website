@@ -21,30 +21,6 @@ export default function Projects() {
             </button>
           </div>
         ))}
-        {/*<button
-          className="flex text-center rounded-2xl border-Main bg-card px-4 py-1"
-          onClick={() => setActiveButton(0)}
-        >
-          all
-        </button>
-        <button
-          className="flex text-center rounded-2xl border-Main bg-card px-2 py-1"
-          onClick={() => setActiveButton(2)}
-        >
-          React
-        </button>
-        <button
-          className="flex text-center rounded-2xl border-Main bg-card px-2 py-1"
-          onClick={() => setActiveButton(3)}
-        >
-          Nextjs
-        </button>
-        <button
-          className="flex text-center rounded-2xl border-Main bg-card px-2 py-1"
-          onClick={() => setActiveButton(4)}
-        >
-          other
-        </button>*/}
       </div>
       {activeButton == 0 && (
         <div className="flex px-2 items-center justify-around">

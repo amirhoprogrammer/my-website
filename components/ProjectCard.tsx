@@ -17,7 +17,7 @@ export default function ProjectCard({ items }: { items: ProjectCardDetils }) {
       <div className="px-2 py-2 cardlist">
         <h2 className="text-center text-3xl font-bold py-1">{items.title}</h2>
         <p className="text-base text-justify py-1">{items.description}</p>
-        <div className="flex gap-3 px-2 py-2">
+        <div className="flex flex-wrap gap-3 px-2 py-2">
           {items.label.map((item, id) => (
             <div className="rounded-md bg-label px-2" key={id}>
               {item}
