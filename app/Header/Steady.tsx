@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import "./header.css";
 import { useEffect, useState } from "react";
 import SteadyHeader from "@/components/SteadyHeader";
