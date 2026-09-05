@@ -53,7 +53,7 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 max-w-md px-4 mb-2 bg-foreground"
+      className="space-y-4 max-w-md px-2 mb-2 bg-foreground mx-2 rounded-md py-2"
     >
       <div>
         <label className="block mb-1 text-command">name</label>
@@ -104,19 +104,21 @@ export default function ContactForm() {
         />
       </div>
 
-      <button
-        type="submit"
-        disabled={loading}
-        className="bg-blue-600 text-white px-6 py-2 rounded disabled:opacity-50"
-      >
-        {loading ? "is sendeing..." : "send message"}
-      </button>
+      <div className="flex items-center justify-center">
+        <button
+          type="submit"
+          disabled={loading}
+          className="bg-command text-foreground px-6 py-2 rounded disabled:opacity-50"
+        >
+          {loading ? "is sendeing..." : "send message"}
+        </button>
+      </div>
 
       {status === "success" && (
-        <p className="text-green-600">send message seccessfully✓</p>
+        <p className="text-command">send message seccessfully✓</p>
       )}
       {status === "error" && (
-        <p className="text-red-600">Error sending message. Please try again.</p>
+        <p className="text-error">Error sending message. Please try again.</p>
       )}
     </form>
   );

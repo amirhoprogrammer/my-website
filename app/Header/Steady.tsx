@@ -4,6 +4,7 @@ import "./header.css";
 import { useEffect, useState } from "react";
 import SteadyHeader from "@/components/SteadyHeader";
 import { HeaderData } from "@/data/HeaderData";
+import Link from "next/link";
 
 export default function Steady() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,13 +22,15 @@ export default function Steady() {
       }`}
     >
       <div className="logo rounded-full">
-        <Image
-          src="/AmirLogo.png"
-          alt="AmirLogo"
-          width={50}
-          height={50}
-          className="rounded-sm"
-        />
+        <Link href="./">
+          <Image
+            src="/AmirLogo.png"
+            alt="AmirLogo"
+            width={50}
+            height={50}
+            className="rounded-sm"
+          />
+        </Link>
       </div>
       <div className="flex items-center justify-between gap-3 headerlist">
         <SteadyHeader item={HeaderData[0]} />

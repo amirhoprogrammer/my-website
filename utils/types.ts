@@ -57,3 +57,8 @@ export interface ContactsMe {
   imageAlt: string;
   text: string;
 }
+
+export interface Question {
+  question: string;
+  answer: string;
+}

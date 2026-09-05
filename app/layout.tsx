@@ -7,17 +7,17 @@ const JetBrainsMono = localFont({
   src: [
     {
       path: "./fonts/ttf/JetBrainsMono-Regular.ttf",
-      weight: "400",
+      weight: "300",
       style: "normal",
     },
     {
       path: "./fonts/ttf/JetBrainsMono-Medium.ttf",
-      weight: "500",
+      weight: "400",
       style: "normal",
     },
     {
       path: "./fonts/ttf/JetBrainsMono-Bold.ttf",
-      weight: "700",
+      weight: "600",
       style: "normal",
     },
   ],

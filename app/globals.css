@@ -21,6 +21,8 @@
   --color-computer: #35c191;
   --color-footer: #e6f4f1;
   --color-command: #008a5e;
+  --color-error: #bb314a;
+  --color-commond-hover: #00e6b5;
 }
 
 @theme inline {

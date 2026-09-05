@@ -4,17 +4,17 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, message } = body;
+    const { name, familyname, email, message } = body;
 
     // اعتبارسنجی ساده
-    if (!name || !email || !message) {
+    if (!name || !email || !message || !familyname) {
       return NextResponse.json(
         { error: "همه فیلدها الزامی هستند" },
         { status: 400 }
       );
     }
 
-    await sendMail({ name, email, message });
+    await sendMail({ name, familyname, email, message });
 
     return NextResponse.json({ success: true });
   } catch (error) {

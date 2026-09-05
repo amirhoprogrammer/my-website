@@ -1,0 +1,14 @@
+@media (max-width: 950px) {
+  .question {
+    flex-direction: column;
+  }
+  .leftside {
+    width: 90%;
+  }
+  .line {
+    display: none;
+  }
+  .rightside {
+    width: 90%;
+  }
+}
