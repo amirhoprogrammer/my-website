@@ -16,7 +16,7 @@ export default function Steady() {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 flex items-center justify-between px-3 py-2 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 flex items-center justify-between px-3 py-2 headerlisting ${
         isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >

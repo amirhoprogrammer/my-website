@@ -7,7 +7,7 @@ import "../globals.css";
 export default function Footer() {
   return (
     <footer className="bg-footer footer">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between footerTop">
         <div className="left px-2 py-1">
           <Image
             src="/AmirLogo.png"
