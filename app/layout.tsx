@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Steady from "./Header/Steady";
 import localFont from "next/font/local";
+import ToastProvider from "@/components/ToastProvider";
 
 const JetBrainsMono = localFont({
   src: [
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Steady />
         {/*<Header />*/}
         {children}
+        <ToastProvider />
       </body>
     </html>
   );

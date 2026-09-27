@@ -1,4 +1,3 @@
-import React from "react";
 import "../globals.css";
 import Navbar from "./Navbar";
 import Image from "next/image";
@@ -8,6 +7,7 @@ import FrontEndMindMap from "@/components/Frontendmindmap";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Footer from "../Footer/page";
+import TechStack from "../TechStack/page";
 
 export default function Body() {
   return (
@@ -78,9 +78,7 @@ export default function Body() {
             bottom you see my skills
           </p>
           <FrontEndMindMap />
-          <h2 className="text-2xl font-bold mb-2 text-center">
-            Technology Stack
-          </h2>
+          <TechStack />
         </div>
       </div>
       <Footer />

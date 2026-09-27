@@ -12,19 +12,19 @@ export default function QuestionTabs() {
   return (
     <AccordionContainer className="grid-cols-1 mx-2">
       <AccordionWrapper>
-        <Accordion defaultValue={"items"}>
-          {QuestionData.map((Question, index) => {
+        <Accordion>
+          {QuestionData.map((question, index) => {
             return (
               <AccordionItem
-                value="item-1"
-                className="bg-background"
+                value={`items-${index}`}
+                className="hover:text-computer"
                 key={index}
               >
-                <AccordionHeader className="2xl:text-base text-sm text-command bg-foreground hover:text-computer">
-                  {Question.question}
+                <AccordionHeader className="2xl:text-base text-sm text-command bg-foreground hover:text-computer data-active:text-command data-active:bg-foreground">
+                  {question.question}
                 </AccordionHeader>
-                <AccordionPanel className="2xl:text-base text-sm text-command bg-foreground hover:text-computer">
-                  {Question.answer}
+                <AccordionPanel className="2xl:text-base text-sm text-command bg-foreground hover:text-computer data-active:text-command data-active:bg-foreground">
+                  {question.answer}
                 </AccordionPanel>
               </AccordionItem>
             );

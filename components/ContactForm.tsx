@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent, ChangeEvent } from "react";
+import { toast } from "react-toastify";
 
 interface FormData {
   name: string;
@@ -39,9 +40,11 @@ export default function ContactForm() {
 
       if (res.ok) {
         setStatus("success");
+        toast.success("send your message successfully");
         setFormData({ name: "", familyname: "", email: "", message: "" });
       } else {
         setStatus("error");
+        toast.error("error in send message");
       }
     } catch (error) {
       setStatus("error");
