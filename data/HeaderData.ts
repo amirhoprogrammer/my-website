@@ -1,7 +1,7 @@
 export const HeaderData = [
   {
     headerItem: "About me",
-    headerLink: "#",
+    headerLink: "/AboutMe",
   },
   {
     headerItem: "Contact me",

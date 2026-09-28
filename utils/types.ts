@@ -62,3 +62,12 @@ export interface Question {
   question: string;
   answer: string;
 }
+
+export interface ProjectDetils {
+  id: number;
+  imageUrls: string[];
+  title: string;
+  description: string;
+  label: string[];
+  gitUrl: string;
+}

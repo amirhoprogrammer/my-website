@@ -1,5 +1,4 @@
 import "../globals.css";
-import Navbar from "./Navbar";
 import Image from "next/image";
 import Card from "@/components/Card";
 import { cardData } from "@/data/cardData";
