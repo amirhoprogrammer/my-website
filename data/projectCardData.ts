@@ -7,6 +7,7 @@ export const projectCardData = [
       "this project about api from pokemon site I fetch data of pokemon api, this json have 4 kind of variable forexample id,name,imgeUrl and type ...",
     label: ["nextjs", "tailwindcss", "fetchdata"],
     gitUrl: "https://github.com/amirhoprogrammer/pokedex-app",
+    vercelUrl: "https://pokedex-app-s4ux.vercel.app/",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const projectCardData = [
       "this project is sample of signning form for login to page, in this project when you login with admin username and pass word you loged in and show in header ...",
     label: ["nextjs", "tailwindcss", "fetchdata", "auth js"],
     gitUrl: "https://github.com/amirhoprogrammer/authy",
+    vercelUrl: "https://authy-gilt.vercel.app/",
   },
   {
     id: 3,
@@ -23,8 +25,9 @@ export const projectCardData = [
     title: "sprit-shop",
     description:
       "This project is about github api. i fetch data from popular repository in github, in main page you see the logo and mystry option, and you see the card of known repository that 4 types : fire ,electric ,ice, all ...",
-    label: ["nextjs", "tailwindcss", "fetchdata", "agithub api", "shadcn Ui"],
+    label: ["nextjs", "tailwindcss", "fetchdata", "github api", "shadcn Ui"],
     gitUrl: "https://github.com/amirhoprogrammer/spirit-shop",
+    vercelUrl: "https://spirit-shop-jowb.vercel.app/",
   },
   {
     id: 4,
@@ -42,7 +45,7 @@ export const projectCardData = [
     description:
       "Project Ava is a hypothetical project aimed at implementing the user interface for a speech-to-text AI model. All necessary resources are located in the resources channel (frontend section).",
     label: ["reactjs", "tailwindcss", "redux", "axios"],
-    gitUrl: "/https://github.com/amirhoprogrammer/front-project-roshan",
+    gitUrl: "https://github.com/amirhoprogrammer/front-project-roshan",
   },
   {
     id: 6,

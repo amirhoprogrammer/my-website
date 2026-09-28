@@ -1,0 +1,124 @@
+export const projectDetailData = [
+  {
+    id: 1,
+    imageUrls: [
+      "/podexapp.png",
+      "/podexapp1.png",
+      "/podexapp3.png",
+      "/podexapp4.png",
+      "/podexapp5.png",
+    ],
+    title: "Podexapp",
+    description:
+      "this project about api from pokemon site I fetch data of pokemon api, this json have 4 kind of variable forexample id,name,imgeUrl and type,I wrote 4 componenet such as pokemon-card,pokemon-list,pokemon-wrapper,search-input, this project in addition to show the card of pokemon, it has also serching for finding the special pokemon card",
+    label: ["nextjs", "tailwindcss", "fetchdata"],
+    gitUrl: "https://github.com/amirhoprogrammer/pokedex-app",
+    vercelUrl: "https://pokedex-app-s4ux.vercel.app/",
+  },
+  {
+    id: 2,
+    imageUrls: [
+      "/authy.png",
+      "/authy1.png",
+      "/authy2.png",
+      "/authy3.png",
+      "/authy4.png",
+      "/authy5.png",
+      "/authy6.png",
+    ],
+    title: "authy",
+    description:
+      "this project is sample of signning form for login to page, in this project when you login with admin username and pass word you loged in and show in header,if you log in,you will see the dashbord that has 3 options such as overview, setting ,Profile. when you log out, it show in header and you don't see the dashbord",
+    label: ["nextjs", "tailwindcss", "fetchdata", "auth js"],
+    gitUrl: "https://github.com/amirhoprogrammer/authy",
+    vercelUrl: "https://authy-gilt.vercel.app/",
+  },
+  {
+    id: 3,
+    imageUrls: ["/sprit-shop.png"],
+    title: "sprit-shop",
+    description:
+      "This project is about github api. i fetch data from popular repository in github, in main page you see the logo and mystry option, and you see the card of known repository that 4 types : fire ,electric ,ice, all. when you click on each one you see the of this type, on the card you see the repository name , logo , description , stars, effect and the technology that used in this repositoryand when you click on the card you see the page that It explains everything in detail. Ultimately mystry potion show the random description for a specific repository",
+    label: ["nextjs", "tailwindcss", "fetchdata", "github api", "shadcn Ui"],
+    gitUrl: "https://github.com/amirhoprogrammer/spirit-shop",
+    vercelUrl: "https://spirit-shop-jowb.vercel.app/",
+  },
+  {
+    id: 4,
+    imageUrls: [
+      "/reactBro.png",
+      "/reactBro1.png",
+      "/reactBro2.png",
+      "/clock.png",
+      "/stopwatch.png",
+    ],
+    title: "react bro",
+    description:
+      "This project is document of react lessons,it have 17 lessons.First lesson is basic List.Second lesson is Card Component.Third lesson is props.Fourth lesson is conditional rendering.Fifth lesson is renedering list.Sixth lesson is click event.Lesson Seven & Eight is Use State Hook.Lesson 9 is color picker.Lesson 10 is updater function.Lesson 12 is update array in state.Lesson 12 is update array in state.and so on .and in addition to have 2 miniproject: clock and stopwatch",
+    label: ["reactjs", "tailwindcss", "use hook"],
+    gitUrl: "https://github.com/amirhoprogrammer/my-react-bro",
+  },
+  {
+    id: 5,
+    imageUrls: [
+      "/image1.png",
+      "/image2.png",
+      "/image3.png",
+      "/image4.png",
+      "/image5.png",
+      "/image6.png",
+      "/image7.png",
+      "/image8.png",
+      "/image9.png",
+      "/image10.png",
+      "/image11.png",
+      "/image12.png",
+      "/image13.png",
+    ],
+    title: "Front Project Roshan",
+    description:
+      "Project Ava is a hypothetical project aimed at implementing the user interface for a speech-to-text AI model. All necessary resources are located in the resources channel (frontend section).",
+    label: ["reactjs", "tailwindcss", "redux", "axios"],
+    gitUrl: "https://github.com/amirhoprogrammer/front-project-roshan",
+  },
+  {
+    id: 6,
+    imageUrls: [
+      "/kandaTask1-2.png",
+      "/kandaTask1-3.png",
+      "/kandaTask1.png",
+      "/kandaTask1-4.png",
+    ],
+    title: "kandatask1",
+    description:
+      "this project is the first page of kanda idea page with the changes, I have two challenge : first was about header second was animation of word. I implement this task with reactjs , bootstrap ,responsive",
+    label: ["reactjs", "bootstrap", "responsive"],
+    gitUrl: "https://github.com/amirhoprogrammer/Task1",
+  },
+  {
+    id: 7,
+    imageUrls: [
+      "/kandaTask3.png",
+      "/kandaTask3-1.png",
+      "/kandaTask3-2.png",
+      "/kandaTask3-3.png",
+      "/kandaTask3-4.png",
+      "/kandaTask3-5.png",
+      "/kandaTask3-6.png",
+    ],
+    title: "kandatask3",
+    description:
+      "this project is page of website that I make with html,jquery,css. this page have Property the first is in header you see the steady header and slider in banner hero, second is the popup that you see in right bottom corner and ... ",
+    label: ["html", "css", "responsive", "jquery"],
+    gitUrl: "https://github.com/amirhoprogrammer/Task1",
+  },
+  {
+    id: 8,
+    imageUrls: ["/kandaTask2-1.png", "/kandaTask2-2.png", "/kandaTask2.png"],
+    title: "kandatask2",
+    description:
+      "this login and register page that kandea idea request to me for make it,I make with asp.net and MVC, you enter the information and you see the information after registering and save information in session storage and the when you log out and you can login agein",
+    label: ["c#", "asp.net", "services", "controller", "MVC"],
+    gitUrl: "https://github.com/amirhoprogrammer/task2-MVC",
+  },
+];

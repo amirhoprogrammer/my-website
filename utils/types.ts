@@ -22,6 +22,7 @@ export interface ProjectCardDetils {
   description: string;
   label: string[];
   gitUrl: string;
+  vercelUrl?: string;
 }
 
 export interface CardDetails {
@@ -70,4 +71,5 @@ export interface ProjectDetils {
   description: string;
   label: string[];
   gitUrl: string;
+  vercelUrl?: string;
 }
