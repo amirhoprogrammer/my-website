@@ -13,7 +13,7 @@ export default function Body() {
   return (
     <div>
       <div className="py-2 px-2 relative">
-        <div className="pr-2 flex aboutMe">
+        <div className="pr-2 flex aboutMe py-20">
           <div className="w-[15%] aboutMeLeft">
             <div className="items-center justify-center flex px-0">
               <Image
@@ -51,7 +51,7 @@ export default function Body() {
             </p>
           </div>
         </div>
-        <div className="flex-col mt-40">
+        <div className="flex-col mt-20 mb-40">
           <h2 className="text-center text-4xl font-bold">Certificate</h2>
           <div className="flex items-center justify-around mt-10">
             <Card items={cardData[0]} />
@@ -59,7 +59,7 @@ export default function Body() {
             <Card items={cardData[2]} />
           </div>
         </div>
-        <div className="my-10">
+        <div className="mt-20 mb-40">
           <h2 className="text-3xl font-bold mb-2 text-center">Resume</h2>
           <div className="h-140">
             <Resume />
@@ -69,7 +69,7 @@ export default function Body() {
           <h2 className="text-3xl font-bold mb-2 text-center">Projects</h2>
           <Projects />
         </div>
-        <div className="my-10">
+        <div className="my-40">
           <h2 className="text-3xl font-bold mb-2 text-center">
             Skills & Technology
           </h2>
