@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./aboutme.css";
+import Histories from "./Histories/page";
 export default function AboutMe() {
   return (
     <div>
@@ -31,6 +31,9 @@ export default function AboutMe() {
           <div className="absolute bottom-25 right-30">
             <Image src="/grass.png" alt="grass" width={500} height={60} />
           </div>
+        </div>
+        <div className="mt-20">
+          <Histories />
         </div>
       </div>
     </div>

@@ -23,6 +23,7 @@
   --color-command: #008a5e;
   --color-error: #bb314a;
   --color-commond-hover: #00e6b5;
+  --color-history: #d1a617;
 }
 
 @theme inline {

@@ -73,3 +73,12 @@ export interface ProjectDetils {
   gitUrl: string;
   vercelUrl?: string;
 }
+
+export interface HistoryDetails {
+  id: number;
+  title: string;
+  description: string;
+  year: number;
+  month: number;
+  day: number;
+}
