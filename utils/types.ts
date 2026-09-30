@@ -42,9 +42,13 @@ export interface ResumeDetails {
   end: number;
 }
 
+export interface FooterListItems {
+  title: string;
+  link: string;
+}
 export interface FooterList {
   title: string;
-  listItems: string[];
+  listItems: FooterListItems[];
 }
 
 export interface Footericon {
