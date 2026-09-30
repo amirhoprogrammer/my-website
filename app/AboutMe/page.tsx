@@ -32,7 +32,7 @@ export default function AboutMe() {
             <Image src="/grass.png" alt="grass" width={500} height={60} />
           </div>
         </div>
-        <div className="mt-20">
+        <div className="mt-20 mb-10">
           <Histories />
         </div>
       </div>
