@@ -74,4 +74,33 @@ export const projectCardData = [
     label: ["c#", "asp.net", "services", "controller", "MVC"],
     gitUrl: "https://github.com/amirhoprogrammer/task2-MVC",
   },
+  {
+    id: 9,
+    imageUrl: "/yekpay.png",
+    title: "yekpay",
+    description:
+      "A full-stack FinTech application built as a technical assessment. Users can hold balances in multiple currencies, exchange between them at a fee, and review a complete, auditable transaction history. ...",
+    label: ["php", "laravel", "my-sql", "phpunit", "MVC", "react", "tailwind"],
+    gitUrl: "https://github.com/amirhoprogrammer/yekpay",
+  },
+  {
+    id: 10,
+    imageUrl: "/home-page.png",
+    title: "homePage",
+    description:
+      "this homepage of Tools ecoomerse Website. It has many things ad categories and products and map and language switcher ...",
+    label: ["nextjs", "tailwind", "language switcher", "api", "axios"],
+    gitUrl: "https://github.com/amirhoprogrammer/homepage",
+    vercelUrl: "https://homepage-zeta-livid.vercel.app/",
+  },
+  {
+    id: 10,
+    imageUrl: "/home-page.png",
+    title: "homePage",
+    description:
+      "this homepage of Tools ecoomerse Website. It has many things ad categories and products and map and language switcher ...",
+    label: ["nextjs", "tailwind", "language switcher", "api", "axios"],
+    gitUrl: "https://github.com/amirhoprogrammer/homepage",
+    vercelUrl: "https://homepage-zeta-livid.vercel.app/",
+  },
 ];
