@@ -3,9 +3,17 @@ import { ProjectCardDetils } from "@/utils/types";
 
 import Image from "next/image";
 import Link from "next/link";
-export default function ProjectCard({ items }: { items: ProjectCardDetils }) {
+export default function ProjectCard({
+  items,
+  width,
+}: {
+  items: ProjectCardDetils;
+  width: number;
+}) {
   return (
-    <div className="w-[40%] shadow-lg rounded-md border-Main my-3">
+    <div
+      className={`w-[${width}%] shadow-lg rounded-md border-Main my-3 h-150 flex flex-col items-center justify-between`}
+    >
       <div className="rounded-t-md">
         <Link href={`/Projects/${items.id}`}>
           <Image
@@ -17,8 +25,10 @@ export default function ProjectCard({ items }: { items: ProjectCardDetils }) {
           />
         </Link>
       </div>
-      <div className="px-2 py-2 cardlist">
+      <div className="flex items-center">
         <h2 className="text-center text-3xl font-bold py-1">{items.title}</h2>
+      </div>
+      <div className="px-2 py-2 cardlist ">
         <p className="text-base text-justify py-1">{items.description}</p>
         <div className="flex flex-wrap gap-3 px-2 py-2">
           {items.label.map((item, id) => (

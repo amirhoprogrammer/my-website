@@ -4,7 +4,7 @@ export const footerData = [
     listItems: [
       { title: "About Me", link: "/AboutMe" },
       { title: "Contact Me", link: "/ContactMe" },
-      { title: "All Projects", link: "#" },
+      { title: "All Projects", link: "/Projects" },
     ],
   },
   {

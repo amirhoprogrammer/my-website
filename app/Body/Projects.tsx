@@ -24,26 +24,26 @@ export default function Projects() {
       </div>
       {activeButton == 0 && (
         <div className="flex px-2 items-center justify-around">
-          <ProjectCard items={projectCardData[2]} />
-          <ProjectCard items={projectCardData[5]} />
+          <ProjectCard items={projectCardData[2]} width={40} />
+          <ProjectCard items={projectCardData[5]} width={40} />
         </div>
       )}
       {activeButton == 1 && (
         <div className="flex px-2 items-center justify-around">
-          <ProjectCard items={projectCardData[3]} />
-          <ProjectCard items={projectCardData[4]} />
+          <ProjectCard items={projectCardData[3]} width={40} />
+          <ProjectCard items={projectCardData[4]} width={40} />
         </div>
       )}
       {activeButton == 2 && (
         <div className="flex px-2 items-center justify-around">
-          <ProjectCard items={projectCardData[0]} />
-          <ProjectCard items={projectCardData[1]} />
+          <ProjectCard items={projectCardData[0]} width={40} />
+          <ProjectCard items={projectCardData[1]} width={40} />
         </div>
       )}
       {activeButton == 3 && (
         <div className="flex px-2 items-center justify-around">
-          <ProjectCard items={projectCardData[6]} />
-          <ProjectCard items={projectCardData[7]} />
+          <ProjectCard items={projectCardData[6]} width={40} />
+          <ProjectCard items={projectCardData[7]} width={40} />
         </div>
       )}
       <div className="flex items-center justify-center my-5">

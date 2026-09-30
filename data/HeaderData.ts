@@ -9,7 +9,7 @@ export const HeaderData = [
   },
   {
     headerItem: "Projects & Portfolio",
-    headerLink: "#",
+    headerLink: "/Projects",
   },
   {
     headerItem: "services",
