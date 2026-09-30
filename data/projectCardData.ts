@@ -85,17 +85,7 @@ export const projectCardData = [
   },
   {
     id: 10,
-    imageUrl: "/home-page.png",
-    title: "homePage",
-    description:
-      "this homepage of Tools ecoomerse Website. It has many things ad categories and products and map and language switcher ...",
-    label: ["nextjs", "tailwind", "language switcher", "api", "axios"],
-    gitUrl: "https://github.com/amirhoprogrammer/homepage",
-    vercelUrl: "https://homepage-zeta-livid.vercel.app/",
-  },
-  {
-    id: 10,
-    imageUrl: "/home-page.png",
+    imageUrl: "/home-page1.png",
     title: "homePage",
     description:
       "this homepage of Tools ecoomerse Website. It has many things ad categories and products and map and language switcher ...",
@@ -105,12 +95,12 @@ export const projectCardData = [
   },
   {
     id: 11,
-    imageUrl: "/home-page.png",
+    imageUrl: "/admin.png",
     title: "admin",
     description:
-      "this homepage of Tools ecoomerse Website. It has many things ad categories and products and map and language switcher ...",
+      "This the admin section of this shop when you have account and Access to add or update or delete any categories and products ...",
     label: ["nextjs", "tailwind", "language switcher", "api", "axios"],
-    gitUrl: "https://github.com/amirhoprogrammer/homepage",
-    vercelUrl: "https://homepage-zeta-livid.vercel.app/",
+    gitUrl: "https://github.com/amirhoprogrammer/admins",
+    vercelUrl: "https://admins-green.vercel.app/",
   },
 ];

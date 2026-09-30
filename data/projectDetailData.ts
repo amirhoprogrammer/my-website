@@ -198,16 +198,7 @@ export const projectDetailData = [
     title: "admin",
     description:
       "This the admin section of this shop when you have account and Access to add or update or delete any categories and products ...",
-    label: [
-      "php",
-      "laravel",
-      "my-sql",
-      "phpunit",
-      "MVC",
-      "react",
-      "tailwind",
-      "fullstack",
-    ],
+    label: ["nextjs", "tailwind", "language switcher", "api", "axios"],
     gitUrl: "https://github.com/amirhoprogrammer/admins",
     vercelUrl: "https://admins-green.vercel.app/",
   },
