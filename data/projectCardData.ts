@@ -103,4 +103,14 @@ export const projectCardData = [
     gitUrl: "https://github.com/amirhoprogrammer/homepage",
     vercelUrl: "https://homepage-zeta-livid.vercel.app/",
   },
+  {
+    id: 11,
+    imageUrl: "/home-page.png",
+    title: "admin",
+    description:
+      "this homepage of Tools ecoomerse Website. It has many things ad categories and products and map and language switcher ...",
+    label: ["nextjs", "tailwind", "language switcher", "api", "axios"],
+    gitUrl: "https://github.com/amirhoprogrammer/homepage",
+    vercelUrl: "https://homepage-zeta-livid.vercel.app/",
+  },
 ];
