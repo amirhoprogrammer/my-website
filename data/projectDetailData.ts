@@ -194,6 +194,8 @@ export const projectDetailData = [
       "/admin6.png",
       "/admin7.png",
       "/admin8.png",
+      "/admin9.png",
+      "/admin10.png",
     ],
     title: "admin",
     description:
