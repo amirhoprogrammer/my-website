@@ -123,7 +123,7 @@ export const projectDetailData = [
   },
   {
     id: 9,
-    imageUrl: [
+    imageUrls: [
       "/yekpay.png",
       "/yekpay1.png",
       "/yekpay2.png",
@@ -155,7 +155,7 @@ export const projectDetailData = [
   },
   {
     id: 10,
-    imageUrl: [
+    imageUrls: [
       "/home-page.png",
       "/home-page1.png",
       "/home-page2.png",
@@ -183,7 +183,7 @@ export const projectDetailData = [
   },
   {
     id: 11,
-    imageUrl: [
+    imageUrls: [
       "/admin.png",
       "/admin1.png",
       "/admin2.png",
