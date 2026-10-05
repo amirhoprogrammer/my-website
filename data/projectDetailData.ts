@@ -206,7 +206,7 @@ export const projectDetailData = [
   },
   {
     id: 12,
-    imageUrl: ["/yekpay.png", "/yekpay1.png", "/yekpay2.png"],
+    imageUrls: ["/yekpay.png", "/yekpay1.png", "/yekpay2.png"],
     title: "laravel",
     description:
       "A full-stack FinTech application built as a technical assessment. Users can hold balances in multiple currencies, exchange between them at a fee, and review a complete, auditable transaction history. ...",
