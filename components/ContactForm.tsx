@@ -56,10 +56,10 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 max-w-md px-2 mb-2 bg-foreground mx-2 rounded-md py-2"
+      className="space-y-4 max-w-lg px-2 mb-2 bg-foreground mx-2 rounded-md py-2"
     >
-      <div>
-        <label className="block mb-1 text-command">name</label>
+      <div className="flex items-center justify-between">
+        <label className="mb-1 text-command flex items-center">name</label>
         <input
           type="text"
           name="name"
@@ -67,11 +67,13 @@ export default function ContactForm() {
           onChange={handleChange}
           placeholder="name"
           required
-          className="w-full border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-command text-command"
         />
       </div>
-      <div>
-        <label className="block mb-1 text-command">familyname</label>
+      <div className="flex items-center justify-between">
+        <label className="mb-1 text-command flex items-center">
+          familyname
+        </label>
         <input
           type="text"
           name="familyname"
@@ -79,11 +81,11 @@ export default function ContactForm() {
           onChange={handleChange}
           placeholder="familyname"
           required
-          className="w-full border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-command text-command"
         />
       </div>
-      <div>
-        <label className="block mb-1 text-command">email</label>
+      <div className="flex items-center justify-between">
+        <label className="mb-1 text-command flex items-center">email</label>
         <input
           type="email"
           name="email"
@@ -91,11 +93,11 @@ export default function ContactForm() {
           onChange={handleChange}
           placeholder="email"
           required
-          className="w-full border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-command text-command"
         />
       </div>
-      <div>
-        <label className="block mb-1 text-command">massege</label>
+      <div className="flex justify-between">
+        <label className="mb-1 text-command flex">massege</label>
         <textarea
           name="message"
           value={formData.message}
@@ -103,7 +105,7 @@ export default function ContactForm() {
           required
           placeholder="message"
           rows={5}
-          className="w-full border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-command text-command"
         />
       </div>
 

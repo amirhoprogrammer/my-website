@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="mx-3">
       <div className="my-2 ">
-        <h2 className="text-3xl">Contact Me</h2>
+        <h2 className="text-2xl">Contact Me</h2>
       </div>
       <div className="">
         <Contacts items={ContactOfMe[0]} />
