@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@theme {
+  --color-blues: #0041e8;
+  --color-reds: #e80004;
+  --color-greens: #00fa5b;
+}
+@media (max-width: 1024) {
+  .flag {
+    border-color: #e80004;
+  }
+  .flag3 {
+    background-color: #0041e8;
+  }
+  .flag1 {
+    background-color: #e80004;
+  }
+}
+@media (max-width: 640) {
+  .flag {
+    flex-direction: row;
+    width: 500px;
+    height: 200px;
+    border-color: #00fa5b;
+  }
+  .flag1 {
+    background-color: #0041e8;
+  }
+  .flag3 {
+    background-color: #e80004;
+  }
+  .flag1 {
+    height: 190px;
+  }
+  .flag2 {
+    height: 190px;
+  }
+  .flag3 {
+    height: 190px;
+  }
+  .flag2-1 {
+    display: none;
+  }
+}

@@ -5,14 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 export default function ProjectCard({
   items,
-  width,
 }: {
   items: ProjectCardDetils;
-  width: number;
 }) {
   return (
     <div
-      className={`w-[${width}%] shadow-lg rounded-md border-Main my-3 h-150 flex flex-col items-center justify-between`}
+      className={`w-[40%] shadow-lg rounded-md border-Main my-3 h-150 flex flex-col items-center justify-between`}
     >
       <div className="rounded-t-md">
         <Link href={`/Projects/${items.id}`}>
