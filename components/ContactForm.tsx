@@ -56,10 +56,10 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 max-w-lg px-2 mb-2 bg-foreground mx-2 rounded-md py-2"
+      className="space-y-4 max-w-lg px-4 mb-2 bg-card mx-2 rounded-md py-4"
     >
       <div className="flex items-center justify-between">
-        <label className="mb-1 text-command flex items-center">name</label>
+        <label className="mb-1 text-foreground flex items-center">name</label>
         <input
           type="text"
           name="name"
@@ -67,11 +67,11 @@ export default function ContactForm() {
           onChange={handleChange}
           placeholder="name"
           required
-          className="w-95 border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-foreground text-foreground"
         />
       </div>
       <div className="flex items-center justify-between">
-        <label className="mb-1 text-command flex items-center">
+        <label className="mb-1 text-foreground flex items-center">
           familyname
         </label>
         <input
@@ -81,11 +81,11 @@ export default function ContactForm() {
           onChange={handleChange}
           placeholder="familyname"
           required
-          className="w-95 border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-foreground text-foreground"
         />
       </div>
       <div className="flex items-center justify-between">
-        <label className="mb-1 text-command flex items-center">email</label>
+        <label className="mb-1 text-foreground flex items-center">email</label>
         <input
           type="email"
           name="email"
@@ -93,11 +93,11 @@ export default function ContactForm() {
           onChange={handleChange}
           placeholder="email"
           required
-          className="w-95 border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-foreground text-foreground"
         />
       </div>
       <div className="flex justify-between">
-        <label className="mb-1 text-command flex">massege</label>
+        <label className="mb-1 text-foreground flex">massege</label>
         <textarea
           name="message"
           value={formData.message}
@@ -105,11 +105,11 @@ export default function ContactForm() {
           required
           placeholder="message"
           rows={5}
-          className="w-95 border p-2 rounded border-command text-command"
+          className="w-95 border p-2 rounded border-foreground text-foreground resize-none"
         />
       </div>
 
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center pt-6">
         <button
           type="submit"
           disabled={loading}

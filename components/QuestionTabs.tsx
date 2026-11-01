@@ -17,13 +17,13 @@ export default function QuestionTabs() {
             return (
               <AccordionItem
                 value={`items-${index}`}
-                className="hover:text-computer"
+                className="hover:text-foreground"
                 key={index}
               >
-                <AccordionHeader className="2xl:text-base text-sm text-command bg-foreground hover:text-computer data-active:text-command data-active:bg-foreground">
+                <AccordionHeader className="2xl:text-base text-sm text-moon bg-card hover:text-foreground data-active:text-moon data-active:bg-card">
                   {question.question}
                 </AccordionHeader>
-                <AccordionPanel className="2xl:text-base text-sm text-command bg-foreground hover:text-computer data-active:text-command data-active:bg-foreground">
+                <AccordionPanel className="2xl:text-base text-sm text-moon bg-card hover:text-foreground data-active:text-moon data-active:bg-card">
                   {question.answer}
                 </AccordionPanel>
               </AccordionItem>
