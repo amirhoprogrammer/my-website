@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Steady from "./Steady";
 import MySlider from "./MySlider";
 import { sliderData } from "@/data/sliderData";
 export default function Header() {

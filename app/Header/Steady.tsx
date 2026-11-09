@@ -32,7 +32,7 @@ export default function Steady() {
           />
         </Link>
       </div>
-      <div className="flex items-center justify-between gap-3 headerlist">
+      <div className="flex items-center justify-center gap-50">
         <SteadyHeader item={HeaderData[0]} />
         <SteadyHeader item={HeaderData[1]} />
         <SteadyHeader item={HeaderData[2]} />

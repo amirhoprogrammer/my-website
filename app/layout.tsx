@@ -5,6 +5,11 @@ import "./globals.css";
 
 import Steady from "./Header/Steady";
 import ToastProvider from "@/components/ToastProvider";
+import Header from "@/components/Header";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: "Amirhossein Aminnegreshi",
@@ -13,9 +18,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="en" className={cn("h-full antialiased", "font-sans", geist.variable)}>
       <body className="min-h-full flex flex-col">
-        <Steady />
+        <Header />
         {children}
         <ToastProvider />
       </body>
