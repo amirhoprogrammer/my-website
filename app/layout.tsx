@@ -3,7 +3,6 @@ import "@fontsource/redaction-20/400.css";
 import "@fontsource/redaction-20/700.css";
 import "./globals.css";
 
-import Steady from "./Header/Steady";
 import ToastProvider from "@/components/ToastProvider";
 import Header from "@/components/Header";
 import { Geist } from "next/font/google";

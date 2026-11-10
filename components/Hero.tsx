@@ -155,10 +155,9 @@ export default function Hero({ slides }: HeroProps) {
             items-center justify-center
             rounded-xl border border-border-secondary
             bg-footer-bg text-white
-            backdrop-blur-md transition
-            hover:border-brand-purple
-            hover:bg-primary-hover"
+            hover:bg-brand-purple hover:border-brand-blue"
           >
+            {/* hover:border-brand-blue backdrop-blur-md  transition*/}
             <ArrowLeft size={22} />
           </button>
 
@@ -169,11 +168,10 @@ export default function Hero({ slides }: HeroProps) {
             className="flex size-12 cursor-pointer
             items-center justify-center
             rounded-xl border border-border-secondary
-            bg-footer-bg text-white
-            backdrop-blur-md transition
-            hover:border-brand-purple
-            hover:bg-primary-hover"
+            bg-footer-bg text-white       
+            hover:bg-brand-purple hover:border-brand-blue"
           >
+            {/* hover:border-brand-blue backdrop-blur-md  transition*/}
             <ArrowRight size={22} />
           </button>
         </div>

@@ -6,7 +6,8 @@ export default function page() {
   return (
     <div className="flex flex-wrap px-10 py-20 gap-10 items-center justify-center">
       {projectCardData.map((project, id) => (
-        <ProjectCard items={project} key={id} width={20} />
+        //width={20}
+        <ProjectCard items={project} key={id} />
       ))}
     </div>
   );
