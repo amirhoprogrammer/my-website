@@ -3,12 +3,11 @@ export interface HeaderList {
   headerLink: string;
 }
 export interface Slider {
-  id: number;
   title: string;
   description: string;
   imageUrl: string;
-  buttonName: string;
-  link: string;
+  buttonName?: string;
+  link?: string;
 }
 export interface MySliderProps {
   activeIndex: number;
