@@ -17,7 +17,7 @@
   --secondary-bg: #eef3ff;
 
   /* Brand */
-  --custom-primary: #00bfeF;
+  --custom-primary: #00bfef;
   --brand-blue: #006bff;
   --brand-purple: #713cff;
 
@@ -77,7 +77,7 @@
 
   /* Scrollbar */
   --scrollbar: #b9c9e2;
-  --scrollbar-hover: #00bfeF;
+  --scrollbar-hover: #00bfef;
 
   /* Footer */
   --footer-bg: #050b1c;
@@ -186,9 +186,10 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
 
-  --font-heading: var(--font-sans);
-
-  --font-sans: var(--font-sans);
+  /* Global Font - Redaction 10 */
+  --font-sans: "Redaction 10", serif;
+  --font-heading: "Redaction 10", serif;
+  --font-redaction: "Redaction 10", serif;
 }
 
 /* ============================================
@@ -286,8 +287,7 @@
 
   .border-gradient {
     border: 1px solid transparent;
-    background:
-      linear-gradient(var(--card), var(--card)) padding-box,
+    background: linear-gradient(var(--card), var(--card)) padding-box,
       var(--brand-gradient) border-box;
   }
 

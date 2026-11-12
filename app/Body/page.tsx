@@ -12,15 +12,14 @@ export default function Body() {
   return (
     <div>
       <div className="py-2 px-2 relative">
-        <div className="pr-2 flex aboutMe py-20">
-          <div className="w-[15%] aboutMeLeft">
-            <div className="items-center justify-center flex px-0">
+        {/*<div className="pr-2 flex aboutMe py-20">
+          <div className="w-[15%] aboutMeLeft items-center flex flex-col">
+            <div className="items-center justify-center px-0 relative block size-24 ">
               <Image
-                src="/amirhossein.jpg"
-                alt="Amir"
-                width={100}
-                height={100}
                 className="rounded-full"
+                src="/profile/amirhosseinaminnegareshi.jpg"
+                alt="Amir"
+                fill
               />
             </div>
             <div>
@@ -49,7 +48,7 @@ export default function Body() {
               projects and portfolio available on GitHub.
             </p>
           </div>
-        </div>
+        </div>*/}
         <div className="flex-col mt-20 mb-40">
           <h2 className="text-center text-4xl font-bold">Certificate</h2>
           <div className="flex items-center justify-around mt-10">

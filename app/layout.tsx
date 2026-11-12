@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
-import "@fontsource/redaction-20/400.css";
-import "@fontsource/redaction-20/700.css";
+
+import "@fontsource/redaction-10/400.css";
+import "@fontsource/redaction-10/700.css";
 import "./globals.css";
 
 import ToastProvider from "@/components/ToastProvider";
 import Header from "@/components/Header";
-import { Geist } from "next/font/google";
-import { cn } from "@/lib/utils";
-
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: "Amirhossein Aminnegreshi",
@@ -17,8 +14,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={cn("h-full antialiased", "font-sans", geist.variable)}>
-      <body className="min-h-full flex flex-col">
+    <html lang="en" className="h-full antialiased">
+      <body className="flex min-h-full flex-col font-sans">
         <Header />
         {children}
         <ToastProvider />
