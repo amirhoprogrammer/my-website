@@ -7,7 +7,7 @@ import About from "@/components/About";
 function HomePage() {
   return (
     <>
-      <Hero slides={sliderData} />;
+      <Hero slides={sliderData} />
       <About />
       {/*<TechStack />*/}
     </>
