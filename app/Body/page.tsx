@@ -4,7 +4,7 @@ import Card from "@/components/Card";
 import { cardData } from "@/data/cardData";
 import FrontEndMindMap from "@/components/Frontendmindmap";
 import Projects from "./Projects";
-import Resume from "./Resume";
+import Resume from "../../components/Resume";
 import Footer from "../Footer/page";
 import TechStack from "../TechStack/page";
 
@@ -48,21 +48,21 @@ export default function Body() {
               projects and portfolio available on GitHub.
             </p>
           </div>
-        </div>*/}
-        {/*<div className="flex-col mt-20 mb-40">
+        </div>
+        <div className="flex-col mt-20 mb-40">
           <h2 className="text-center text-4xl font-bold">Certificate</h2>
           <div className="flex items-center justify-around mt-10">
             <Card items={cardData[0]} />
             <Card items={cardData[1]} />
             <Card items={cardData[2]} />
           </div>
-        </div>*/}
+        </div>
         <div className="mt-20 mb-40">
           <h2 className="text-3xl font-bold mb-2 text-center">Resume</h2>
           <div className="h-140">
             <Resume />
           </div>
-        </div>
+        </div>*/}
         <div className="my-10">
           <h2 className="text-3xl font-bold mb-2 text-center">Projects</h2>
           <Projects />

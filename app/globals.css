@@ -29,7 +29,7 @@
   );
 
   /* line */
-  --default-line : black;
+  --default-line: black;
 
   /* Primary */
   --primary: oklch(0.205 0 0);
@@ -106,6 +106,13 @@
   --chart-5: oklch(0.269 0 0);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
+
+  /* Matching gradients */
+  --resume-1: #26b9ff;
+  --resume-2: #639af1;
+  --resume-3: #8e77d1;
+  --resume-4: #a750a3;
+  --button-resume: #ac266b;
 }
 
 /* ============================================
@@ -117,7 +124,7 @@
   --color-secondary-bg: var(--secondary-bg);
   --color-foreground: var(--foreground);
 
-  --color-default-line : var(--default-line)
+  --color-default-line: var(--default-line);
 
   --color-brand: var(--custom-primary);
   --color-brand-blue: var(--brand-blue);
@@ -181,6 +188,13 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+
+  /* Matching gradients */
+  --color-resume-1: var(--resume-1);
+  --color-resume-2: var(--resume-2);
+  --color-resume-3: var(--resume-3);
+  --color-resume-4: var(--resume-4);
+  --color-button-resume: var(--button-resume);
 
   /* Radius */
   --radius-lg: var(--radius);
@@ -319,7 +333,7 @@
   --secondary-bg: #08152b;
   --foreground: oklch(0.985 0 0);
   /* line */
-  --default-line : black;
+  --default-line: black;
   /*--gray-line : gray-400 ;*/
 
   /* Brand */

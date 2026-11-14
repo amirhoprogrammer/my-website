@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import "./projects.css";
 import { projectCardData } from "@/data/projectCardData";
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
