@@ -5,24 +5,21 @@ export default function ResumeCard({ items }: { items: ResumeDetails }) {
     return record;
   };
   return (
-    <div className=" py-1 px-0 ">
-      <div className="flex items-center justify-between mx-0 px-2">
-        <div className="flex items-center justify-between">
+    <div className="py-1 px-0 flex flex-col gap-5 md:gap-0">
+      <div className="flex flex-col gap-5 md:flex-row md:gap-0 items-center justify-between mx-0 px-2">
+        <div className="flex flex-col items-start">
           <h3 className="text-[20px] md:text-[24px] lg:text-[28px] font-bold">
             {items.title}
           </h3>
+          <h4 className="text-[16px] md:text-[20px]">{items.title2}</h4>
         </div>
         <div className="bg-resume-4 px-1 py-1 rounded-md">
           {Duration(items.start, items.end)}
         </div>
       </div>
       <div className="px-2">
-        <h4 className="text-[16px] md:text-[20px]">{items.title2}</h4>
-      </div>
-      <div className="px-2">
         <h4 className="text-[12px] md:text-[14px]">{items.description}</h4>
       </div>
-      
     </div>
   );
 }
