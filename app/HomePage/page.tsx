@@ -1,9 +1,10 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/Homepage/Hero";
 import { sliderData } from "@/data/sliderData";
 import TechStack from "../TechStack/page";
-import About from "@/components/About";
-import Certificate from "@/components/Certificate";
-import ResumeSection from "@/components/ResumeSection";
+import About from "@/components/Homepage/About";
+import Certificate from "@/components/Homepage/certificate/Certificate";
+import ResumeSection from "@/components/Homepage/resume/ResumeSection";
+
 
 function HomePage() {
   return (

@@ -1,10 +1,10 @@
 import "../globals.css";
 import Image from "next/image";
-import Card from "@/components/Card";
+import Card from "@/components/Homepage/certificate/Card";
 import { cardData } from "@/data/cardData";
 import FrontEndMindMap from "@/components/Frontendmindmap";
 import Projects from "./Projects";
-import Resume from "../../components/Resume";
+import Resume from "../../components/Homepage/resume/Resume";
 import Footer from "../Footer/page";
 import TechStack from "../TechStack/page";
 

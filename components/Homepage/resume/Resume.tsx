@@ -3,12 +3,13 @@
 import { useState } from "react";
 import { ResumeDetails } from "@/utils/types";
 import { resumeData } from "@/data/resumeData";
-import ResumeCard from "@/components/ResumeCard";
+import ResumeCard from "./ResumeCard";
+
 const Labels = ["education", "WorkHistory", "skills", "Language"];
 export default function Resume() {
   const [isClicked, setisClicked] = useState(0);
   return (
-    <div className="flex flex-col gap-5 md:flex-row mx-0 px-0 items-center justify-center h-140">
+    <div className="flex flex-col gap-5 md:flex-row md:gap-0 mx-0 px-0 items-center justify-center h-140">
       <div className="leftside grid grid-cols-2 md:flex md:flex-col items-center justify-center bg-resume-1 shadow-lg h-140 rounded-md md:rounded-r-none border-card">
         {Labels.map((Label, id) => (
           <div className="flex items-center justify-center py-1 px-2" key={id}>

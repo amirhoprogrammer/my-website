@@ -1,4 +1,3 @@
-import React from "react";
 import { ResumeDetails } from "@/utils/types";
 export default function ResumeCard({ items }: { items: ResumeDetails }) {
   const Duration = (start: number, end: number) => {

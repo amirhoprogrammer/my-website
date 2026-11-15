@@ -1,4 +1,3 @@
-import React from "react";
 import { CardDetails } from "@/utils/types";
 
 import Image from "next/image";
