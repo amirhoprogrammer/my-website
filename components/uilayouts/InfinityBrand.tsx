@@ -2,7 +2,7 @@ import { Stacks } from "@/data/Stack";
 
 export default function InfinityBrand() {
   return (
-    <div className="w-full inline-flex flex-nowrap overflow-hidden mask-[linear-gradient(to_right,transparent_0,black_128px,black_calc(100%-128px),transparent_100%)] bg-aboutme py-5">
+    <div className="w-full inline-flex flex-nowrap overflow-hidden mask-[linear-gradient(to_right,transparent_0,black_128px,black_calc(100%-128px),transparent_100%)] bg-brand py-5">
       {/* ردیف اول */}
       <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll">
         {Stacks.map((stack, i) => (

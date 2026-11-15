@@ -1,12 +1,12 @@
 import Hero from "@/components/Homepage/Hero";
 import { sliderData } from "@/data/sliderData";
-import TechStack from "../TechStack/page";
+import TechStack from "../../components/TechStack/page";
 import About from "@/components/Homepage/About";
 import Certificate from "@/components/Homepage/certificate/Certificate";
 import ResumeSection from "@/components/Homepage/resume/ResumeSection";
 import Projectsection from "@/components/projects/Projectsection";
 import Skills from "@/components/Homepage/Skills/Skills";
-
+import Footer from "../../components/Footer/page";
 
 function HomePage() {
   return (
@@ -17,8 +17,8 @@ function HomePage() {
       <ResumeSection />
       <Projectsection />
       <Skills />
-
-      {/*<TechStack />*/}
+      <TechStack />
+      <Footer />
     </>
   );
 }

@@ -226,6 +226,20 @@
   --breakpoint-3xl: 120rem; /* 1920px - فول‌اچ‌دی */
 }
 
+@theme {
+  --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+
 /* ============================================
    4) Base Styles
    ============================================ */

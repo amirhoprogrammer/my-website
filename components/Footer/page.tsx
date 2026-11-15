@@ -3,20 +3,22 @@ import Icon from "@/components/Icon";
 import { iconData } from "@/data/iconData";
 import FooterLists from "@/components/FooterLists";
 import { footerData } from "@/data/footerData";
-import "../globals.css";
+import "../../app/globals.css";
 export default function Footer() {
   return (
-    <footer className="bg-footer footer">
-      <div className="flex items-center justify-between footerTop">
-        <div className="left px-2 py-1">
-          <Image
-            src="/AmirLogo.png"
-            alt="AmirLogo"
-            width={50}
-            height={50}
-            className="rounded-md py-1 px-1"
-          />
-          <p className="text-base text-justify px-1 py-1">
+    <footer className="bg-footer-foreground">
+      <div className="flex items-center justify-between ">
+        <div className="left px-2 py-1 ">
+          <div className="block relative size-25">
+            <Image
+              src="/AmirhosseinsLogo.png"
+              alt="AmirLogo"
+              fill
+              className="rounded-md py-1 px-1 bg-white"
+            />
+          </div>
+
+          <p className="text-base text-justify px-1 py-1 ">
             To get in touch with me, you can email me at <br />
             amirhanegareshi@gmail.com.
           </p>
@@ -29,7 +31,7 @@ export default function Footer() {
       </div>
       <div className="border-t-2 border-black"></div>
       <div className="flex items-center justify-around">
-        <p className="text-sm">©Copyright 2026. All Rights Reserved.</p>
+        <p className="text-sm ">©Copyright 2026. All Rights Reserved.</p>
         <div className="flex gap-3">
           {<Icon item={iconData[0]} />}
           {<Icon item={iconData[1]} />}
