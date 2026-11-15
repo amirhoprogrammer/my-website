@@ -3,7 +3,7 @@ import Image from "next/image";
 import Card from "@/components/Homepage/certificate/Card";
 import { cardData } from "@/data/cardData";
 import FrontEndMindMap from "@/components/Frontendmindmap";
-import Projects from "./Projects";
+import Projects from "../../components/projects/Projects";
 import Resume from "../../components/Homepage/resume/Resume";
 import Footer from "../Footer/page";
 import TechStack from "../TechStack/page";
@@ -63,10 +63,10 @@ export default function Body() {
             <Resume />
           </div>
         </div>*/}
-        <div className="my-10">
+        {/*<div className="my-10">
           <h2 className="text-3xl font-bold mb-2 text-center">Projects</h2>
           <Projects />
-        </div>
+        </div>*/}
         <div className="my-40">
           <h2 className="text-3xl font-bold mb-2 text-center">
             Skills & Technology

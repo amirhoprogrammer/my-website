@@ -1,4 +1,5 @@
-import ProjectPage from "@/components/ProjectPage";
+
+import ProjectPage from "@/components/projects/ProjectPage";
 import { projectDetailData } from "@/data/projectDetailData";
 import { notFound } from "next/navigation";
 import React from "react";
