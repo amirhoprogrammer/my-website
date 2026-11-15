@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Icon from "@/components/Icon";
 import { iconData } from "@/data/iconData";
-import FooterLists from "@/components/FooterLists";
+import FooterLists from "@/components/Homepage/footer/FooterLists";
 import { footerData } from "@/data/footerData";
 import "../../app/globals.css";
 export default function Footer() {

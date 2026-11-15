@@ -1,4 +1,4 @@
-import React from "react";
+import { cn } from "@/lib/utils";
 import { ProjectCardDetils } from "@/utils/types";
 
 import Image from "next/image";
@@ -6,7 +6,9 @@ import Link from "next/link";
 export default function ProjectCard({ items }: { items: ProjectCardDetils }) {
   return (
     <div
-      className={`w-[90%] md:w-[40%] shadow-lg rounded-md border-brand-blue bg-brand-gradient my-3 h-150 flex flex-col items-start justify-between`}
+      className={cn(
+        "shadow-lg rounded-md border-brand-blue bg-brand-gradient my-3 h-150 flex flex-col items-start justify-between"
+      )}
     >
       <div className="rounded-t-md relative block h-62.5 w-full">
         <Link

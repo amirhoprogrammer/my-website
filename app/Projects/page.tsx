@@ -1,13 +1,11 @@
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "@/components/projects/ProjectCard";
 import { projectCardData } from "@/data/projectCardData";
-import React from "react";
 
-export default function page() {
+export default function ProjectsPage() {
   return (
-    <div className="flex flex-wrap px-10 py-20 gap-10 items-center justify-center">
-      {projectCardData.map((project, id) => (
-        //width={20}
-        <ProjectCard items={project} key={id} />
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-10 py-20 gap-10">
+      {projectCardData.map((project) => (
+        <ProjectCard items={project} key={project.id}  />
       ))}
     </div>
   );
