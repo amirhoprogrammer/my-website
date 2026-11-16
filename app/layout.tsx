@@ -5,7 +5,7 @@ import "@fontsource/redaction-10/700.css";
 import "./globals.css";
 
 import ToastProvider from "@/components/ToastProvider";
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
 
 export const metadata: Metadata = {
   title: "Amirhossein Aminnegreshi",

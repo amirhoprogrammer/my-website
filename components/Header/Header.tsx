@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SteadyHeader from "./SteadyHeader";
 import { HeaderData } from "@/data/HeaderData";
-import PortfolioDropdown from "./PortfolioDropdown";
+import PortfolioDropdown from "../PortfolioDropdown";
 
 export default function Header() {
   return (
@@ -10,7 +10,12 @@ export default function Header() {
       <div className="w90 flex items-center justify-between">
         <div className="">
           <Link href="./" className="size-18 relative block lg:size-20">
-            <Image src="/Logo23.png" alt="logo" fill className="rounded-sm" />
+            <Image
+              src="/Logo/Logo23.png"
+              alt="logo"
+              fill
+              className="rounded-sm"
+            />
           </Link>
         </div>
         <nav>

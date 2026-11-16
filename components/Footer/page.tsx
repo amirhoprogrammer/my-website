@@ -7,14 +7,14 @@ import "../../app/globals.css";
 export default function Footer() {
   return (
     <footer className="bg-footer-foreground">
-      <div className="flex items-center justify-between ">
+      <div className="flex items-center justify-between w90">
         <div className="left px-2 py-1 ">
-          <div className="block relative size-25">
+          <div className="block relative size-25 transparent">
             <Image
-              src="/AmirhosseinsLogo.png"
-              alt="AmirLogo"
+              src="/Logo/Logo23.png"
+              alt="Logo23"
               fill
-              className="rounded-md py-1 px-1 bg-white"
+              className="rounded-md py-1 px-1 "
             />
           </div>
 

@@ -107,12 +107,16 @@
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
 
-  /* Matching gradients */
+  /* resume */
   --resume-1: #26b9ff;
   --resume-2: #639af1;
   --resume-3: #8e77d1;
   --resume-4: #a750a3;
   --button-resume: #ac266b;
+  /* history */
+  --history-1: #7a3100;
+  --history-2: #ffeace;
+  --history-3: #8f7158;
 }
 
 /* ============================================
@@ -189,12 +193,17 @@
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
 
-  /* Matching gradients */
+  /* resume */
   --color-resume-1: var(--resume-1);
   --color-resume-2: var(--resume-2);
   --color-resume-3: var(--resume-3);
   --color-resume-4: var(--resume-4);
   --color-button-resume: var(--button-resume);
+
+  /* history */
+  --history-1: var(--history-1);
+  --history-2: var(--history-2);
+  --history-3: var(--history-3);
 
   /* Radius */
   --radius-lg: var(--radius);
@@ -238,7 +247,6 @@
     }
   }
 }
-
 
 /* ============================================
    4) Base Styles
